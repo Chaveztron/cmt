@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<body class="home-page">
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<!-- portfilio single -->
+    <section class="portfilio-single set-bg" data-setbg="{{ post.photoPortada.url }}">
+        <div class="sp-container">
+            <div class="portfolio-single-content text-white">
+                <span>{{ post.tipoModel.tipo_model }}</span>
+				<h2>{{ post.nombre }}</h2>
+				<p>{{ post.descripcion }}</p>
+               <ul>
+                   <li><h6>Age:</h6><span>{{ post.edad }} years</span></li>
+                   <li><h6>Date:</h6><span>{{ post.timestamp }}</span></li>
+                   <li><h6>Tag:</h6><span>
+					   {% for tag in post.tag.all %}
+					   {% if forloop.last %}
+					    {{ tag.tag }}
+					   {% else %}
+					   	{{ tag.tag }},
+					   {% endif %}
+					   {% endfor %}
+				   </span></li>
+               </ul>
+            </div>
+        </div>
+	</section>
+	<!-- Portfolio single end -->
+
+	<!-- Portfolio slider -->
+    <div class="portfolio-slider-warp">
+        <div class="portfolio-slider owl-carousel">
+            <img src="{{ post.photo1.url }}" alt="">
+            <img src="{{ post.photo2.url }}" alt="">
+            <img src="{{ post.photo3.url }}" alt="">
+            <img src="{{ post.photo4.url }}" alt="">
+        </div>
+        <div class="slide-num-holder" id="snh-1"></div>
+	</div>
+	<!-- Portfolio slider end -->
+
+	</body>
+	<!-- Banner Section end -->
+{% endblock content %}

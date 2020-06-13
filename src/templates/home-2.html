@@ -1,0 +1,97 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+	                    
+	<div id="fullpage">
+		<!-- Hero section -->
+		<div class="section fp-auto-height" id="hero-section">
+			<div class="hero-section-2 d-flex align-items-center set-bg" data-setbg="{% static './img/slider/2.jpg' %}">
+				<div class="sp-container">
+					<div class="hero-content text-white">
+						<span>Proffesional Photographer</span>
+						<h2>I’m Michael Smith</h2>
+						<p>Maecenas facilisis facilisis consequat. Curabitur fringilla pellentesque neque, im-perdiet efficitur urna gravida vel. Cras augue diam, sollicitudin sit amet felis ut, eleifend faucibus dui. Proin euismod suscipit lacus, et scelerisque nisi aliquam a. Nunc feugiat mattis quam, ut luctus enim ultrices at.</p>
+						<div class="site-btn"><span>Read More</span></div>
+					</div>
+				</div>
+			</div>
+			<div class="contact-link">
+				<p>Contact me</p>
+				<a href="#"><img src="{% static 'img/contact.jpg' %}" alt=""></a>
+			</div>
+		</div>
+		<!-- Hero section end -->
+
+		<!-- Testimonial section -->
+		<div class="section testimonial-section set-bg" data-setbg="{% static './img/section-bg/4.jpg' %}">
+			<div class="container">
+				<div class="testimonial-content">
+					<h2>Clients Testimonials</h2>
+					<p>Maecenas facilisis facilisis consequat. Curabitur fringilla pellentesque neque, imperdiet efficitur urna gravida vel. Cras augue diam, sollicitudin sit amet felis ut, eleifend faucibus dui. Proin euismod suscipit lacus, et scelerisque nisi aliquam a. Nunc feugiat mattis quam, ut luctus enim ultrices at.</p>
+					<img src="{% static 'img/testi-avatar.jpg' %}" class="testi-avatar" alt="">
+					<h6>Maria Smith, <span>Bride</span></h6>
+					<div class="site-btn sb-dark"><span>See all testimonials</span></div>
+				</div>
+			</div>
+		</div>
+		<!-- Testimonial section end-->
+
+		<!-- About section -->
+		<div class="section sp-about-section set-bg" data-setbg="{% static './img/section-bg/5.jpg' %}">
+			<div class="sp-container">
+				<div class="row sp-about-content">
+					<div class="col-lg-6">
+						<div class="text-white">
+							<span>Proffesional Photographer</span>
+							<h2>I have an incredible portfolio and satisfied clients all over the world</h2>
+							<div class="site-btn"><span>Read More</span></div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="sp-about-text">
+							<p>Maecenas facilisis facilisis consequat. Curabitur fringilla pellentesque neque, im-perdiet efficitur urna gravida vel. Cras augue diam, sollicitudin sit amet felis ut, eleifend faucibus dui. Proin euismod suscipit lacus, et scelerisque nisi aliquam a. Nunc feugiat mattis quam, ut luctus enim ultrices at.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 col-6 fact-item">
+						<h2>30k</h2>
+						<p>Photos Taken</p>
+					</div>
+					<div class="col-md-3 col-6 fact-item">
+						<h2>2191</h2>
+						<p>Happy Clients</p>
+					</div>
+					<div class="col-md-3 col-6 fact-item">
+						<h2>67</h2>
+						<p>Weddings Shoot</p>
+					</div>
+					<div class="col-md-3 col-6 fact-item">
+						<h2>54k</h2>
+						<p>Insta Followers</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- About section end-->
+	</div>
+
+	<!-- Banner Section -->
+	<section class="banner-section set-bg" data-setbg="{% static './img/banner-bg.jpg' %}">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9">
+					<h2>Need a photographer? Get in touch</h2>
+				</div>
+				<div class="col-lg-3 text-lg-right text-left">
+					<div class="site-btn"><span>Read More</span></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Banner Section end -->
+{% endblock content %}

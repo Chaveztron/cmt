@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+	                    
+	<div id="fullpage">
+		<!-- Hero section -->
+		<div class="section fp-auto-height" id="hero-section">
+			<div class="hero-slider owl-carousel">
+				<div class="hs-item set-bg" data-setbg="{% static './img/slider/download_img.PNG' %}">
+					<div class="container text-white">
+						<h2>Crystal Models Tj</h2>
+						<h1>This is a site that contains adult content, if you are not of legal age, please leave this page. </h1>
+						<a href="/all"><div class="site-btn"><span>Discover</span></div></a>
+					</div>
+				</div>
+				<div class="hs-item set-bg" data-setbg="{% static './img/slider/download_img2.PNG' %}">
+					<div class="container text-white">
+						<h1>Fusce erat dui, venenatis et erat in, vulputate dignissim lacus. </h1>
+						<h2>Choose and Enjoy!!</h2>
+						<a href="/all"><div class="site-btn"><span>Discover</span></div></a>
+					</div>
+				</div>
+			</div>
+			<div class="slide-num-holder" id="snh-1"></div>
+			<div class="down-sign">
+				<h6>Discover</h6>
+				<img src="{% static 'img/icons/arrow-down.png' %}" alt="">
+			</div>
+			<div class="contact-link">
+				<p>Contact me</p>
+				<a href="#"><img src="{% static 'img/contact.png' %}" alt=""></a>
+			</div>
+		</div>
+		<!-- Hero section end -->
+
+		<!-- About two Section -->
+		<div class="section about-section about-two set-bg" data-setbg="{% static './img/section-bg/2.png' %}">
+			<div class="about-content-warp">
+
+			</div>
+		</div>
+		<!-- About two Section end -->
+
+
+		<!-- About three Section -->
+		<div class="section about-section about-three set-bg" data-setbg="{% static './img/section-bg/3.PNG' %}">
+			<div class="about-content-warp text-white">
+
+			</div>
+		</div>
+		<!-- About three Section end-->
+	</div>
+
+
+    {% endblock content %}

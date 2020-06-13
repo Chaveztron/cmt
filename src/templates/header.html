@@ -1,0 +1,25 @@
+{% load static %}
+<!-- Header Section -->
+	<header class="header-section">
+		<div class="header-warp">
+			<!-- logo -->
+			<a href="{% url 'crystal' %}" class="site-logo">
+				<img src="{% static 'img/logo.png' %}" alt="" width="100">
+			</a>
+			<div class="header-social">
+				{% for contacto in contactos %}
+				<a href="mailto:{{ contacto.email }}"><i class="fa fa-google"></i></a>
+				<a href="tel:{{ contacto.telefono }}"><i class="fa fa-whatsapp"></i></a>
+				{% endfor %}
+			</div>
+			<div class="nav-switch">
+				<i class="fa fa-bars"></i>
+			</div>
+			<!-- menu -->
+			<ul class="main-menu">
+				<li><a href="{% url 'crystal' %}">Home</a></li>
+				<li><a href="/all">Crystal Models</a></li>
+			</ul>
+		</div>
+	</header>
+	<!-- Header Section end-->
