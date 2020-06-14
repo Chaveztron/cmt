@@ -12,7 +12,7 @@ def age(request):
         ip = request.META.get('REMOTE_ADDR')
     print(ip)
     g = GeoIP2()
-    location = g.city('177.236.20.140')
+    location = g.city(ip)
     location_country = location["country_name"]
     location_city = location["city"]
     return render(request, 'pagesAd/index.html', {"location": location_country})
