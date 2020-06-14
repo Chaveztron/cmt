@@ -34,8 +34,8 @@
 /*----------------------------------------*/
 
 @font-face {
-	font-family: "BickhamScriptPro-Regular";
-	src: url("../fonts/BickhamScriptPro-Regular.woff") format("woff"), url("../fonts/BickhamScriptPro-Regular.woff2") format("woff2");
+	font-family: "Dancing Script";
+	src: url("../fonts/DancingScript-Bold.ttf") format("woff"), url("../fonts/DancingScript-Bold.ttf") format("woff2");
 	font-weight: normal;
 	font-style: normal;
 }
@@ -43,7 +43,7 @@
 html,
 body {
 	height: 100%;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Dancing Script", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 }
@@ -455,7 +455,7 @@ ol {
 
 .hs-item h1 {
 	font-size: 36px;
-	font-family: "BickhamScriptPro-Regular";
+	font-family: "Dancing Script";
 	font-weight: 400;
 	line-height: 0.1;
 }
