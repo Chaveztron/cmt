@@ -11,29 +11,33 @@
 			<div class="grid-sizer"></div>
 			<div class="grid-item portfolio-item __big __wide">
 				<div class="portfolio-intro text-white" >
-					<span>Crystal Models</span>
-					<h2>Choose and Enjoy!!</h2>
 
 					<ul class="portfolio-filter controls">
-						<li class="control" data-filter="all">All</li>
+						<li class="control" data-filter=".all">All</li>
 						{% for model in models %}
 						<li class="control" data-filter=".{{ model.tipo_model }}">{{ model.tipo_model }}</li>
 						{% endfor %}
 					</ul>
+
+					<h2 class="mix set-bg all" id="clic">Choose and enjoy!!<br><br><br><br><br><br></h2>
+					<h2 class="mix set-bg FLASH_Crystal_Gallery" >Here you can find foreign girls who temporarily reside in the city.</h2>
+					<h2 class="mix set-bg Crystal_Gallery" >Here you can find the models that come to town.</h2>
 				</div>                                                                
 			</div>
 			<!-- Item -->
 			{% for post in posts %}
 				{% if forloop.first or forloop.counter == 4 %}
-					<a href="{{ post.get_absolute_url }}" class="grid-item mix portfolio-item __big set-bg {{ post.tipoModel.tipo_model }}" data-setbg="{{ post.thumbnail.url }}"></a>
+					<a href="{{ post.get_absolute_url }}" class="grid-item mix portfolio-item __big set-bg {{ post.tipoModel.tipo_model }} all" data-setbg="{{ post.thumbnail.url }}"></a>
 				{% else %}
-					<a href="{{ post.get_absolute_url }}" class="grid-item mix portfolio-item set-bg {{ post.tipoModel.tipo_model }}" data-setbg="{{ post.thumbnail.url }}"></a>
+					<a href="{{ post.get_absolute_url }}" class="grid-item mix portfolio-item set-bg {{ post.tipoModel.tipo_model }} all" data-setbg="{{ post.thumbnail.url }}"></a>
 				{% endif %}
 			{% endfor %}
 
 			<a href="#" class="grid-item mix portfolio-item portfolio-next-btn"><h3>Next</h3></a>
 		</div>
 	</section>
+
+
 	<!-- portfilio Section end-->
 
 {% endblock content %}

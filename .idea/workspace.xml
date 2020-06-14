@@ -16,7 +16,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33396c9-31d0-4677-b843-5c57d3b9ec68" name="Default Changelist" comment="" />
+    <list default="true" id="d33396c9-31d0-4677-b843-5c57d3b9ec68" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/src/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static_in_env/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/static_in_env/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/pagesAd/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/pagesAd/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/portfolio.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +79,9 @@
       <workItem from="1591763409448" duration="8069000" />
       <workItem from="1591855928025" duration="6144000" />
       <workItem from="1591935744197" duration="2900000" />
-      <workItem from="1592019129161" duration="100000" />
+      <workItem from="1592019129161" duration="8355000" />
+      <workItem from="1592097582652" duration="52000" />
+      <workItem from="1592098847171" duration="237000" />
     </task>
     <servers />
   </component>
@@ -83,13 +93,30 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="655" y="305" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592043604576">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="305" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592043604576" />
     <state x="624" y="208" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591085462926">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

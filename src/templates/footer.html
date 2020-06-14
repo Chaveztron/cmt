@@ -11,21 +11,17 @@
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="footer-info">
-						<h6>Talk to us </h6>
-						<ul>
-							{% for contacto in contactos %}
-							<li>Whatsapp +52 <a href="tel:+52 {{ contacto.telefono }}">{{ contacto.telefono }}</a></li>
-							<li><a href="mailto:{{ contacto.email }}">{{ contacto.email }}</a></li>
-							{% endfor %}
-						</ul>
+
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="footer-info">
-						<h6>Location</h6>
+						<h2 style="color: white">Talk to us </h2>
 						<ul>
-							<li>MAin str. 25</li>
-							<li>458811 CA</li>
+							{% for contacto in contactos %}
+							<li><h2 style="color: white">Whatsapp +52 <a href="tel:+52 {{ contacto.telefono }}">{{ contacto.telefono }}</a></h2></li>
+							<li><h2 style="color: white"><a href="mailto:{{ contacto.email }}">{{ contacto.email }}</a></h2></li>
+							{% endfor %}
 						</ul>
 					</div>
 				</div>

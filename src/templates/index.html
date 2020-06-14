@@ -14,25 +14,28 @@
 					<div class="container text-white">
 						<h2>Crystal Models Tj</h2>
 						<h1>This is a site that contains adult content, if you are not of legal age, please leave this page. </h1>
-						<a href="/all"><div class="site-btn"><span>Discover</span></div></a>
+						<br><br>
+						<a href="/all"><div class="site-btn"><span>Galleries</span></div></a>
 					</div>
 				</div>
 				<div class="hs-item set-bg" data-setbg="{% static './img/slider/download_img2.PNG' %}">
 					<div class="container text-white">
 						<h1>Fusce erat dui, venenatis et erat in, vulputate dignissim lacus. </h1>
 						<h2>Choose and Enjoy!!</h2>
-						<a href="/all"><div class="site-btn"><span>Discover</span></div></a>
+						<a href="/all"><div class="site-btn"><span>Galleries</span></div></a>
 					</div>
 				</div>
 			</div>
 			<div class="slide-num-holder" id="snh-1"></div>
 			<div class="down-sign">
-				<h6>Discover</h6>
+				<h6>Galleries</h6>
 				<img src="{% static 'img/icons/arrow-down.png' %}" alt="">
 			</div>
 			<div class="contact-link">
 				<p>Contact me</p>
-				<a href="#"><img src="{% static 'img/contact.png' %}" alt=""></a>
+				{% for contacto in contactos %}
+				<a href="tel:+52 {{ contacto.telefono }}"><img src="{% static 'img/contact.png' %}" alt=""></a>
+				{% endfor %}
 			</div>
 		</div>
 		<!-- Hero section end -->
