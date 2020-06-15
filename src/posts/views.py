@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from .models import Post, Tipo_Model, Contacto
 from django.contrib.gis.geoip2 import GeoIP2
 
@@ -15,7 +15,10 @@ def age(request):
     location = g.city(ip)
     location_country = location["country_name"]
     location_city = location["city"]
-    return render(request, 'pagesAd/index.html', {"location": location_country})
+    if(location_country == 'Mexico'):
+        return redirect("https://www.lmgtfy.es/?q=google")
+    else:
+        return render(request, 'pagesAd/index.html', {"location": location_country})
 
 def index(request):
     contactos = Contacto.objects.all()
