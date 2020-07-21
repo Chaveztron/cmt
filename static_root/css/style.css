@@ -84,9 +84,9 @@ h6 {
 }
 
 p {
+	width: 70rem;
 	font-size: 14px;
 	color: #585858;
-	line-height: 2;
 }
 
 img {
@@ -815,7 +815,7 @@ ol {
 }
 
 .portfolio-single-content span {
-	font-size: 14px;
+	font-size: 20px;
 	font-weight: 500;
 }
 
@@ -843,7 +843,7 @@ ol {
 }
 
 .portfolio-single-content ul li h6 {
-	font-size: 14px;
+	font-size: 30px;
 	width: 63px;
 	display: inline-block;
 }

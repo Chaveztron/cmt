@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from .models import Post, Tipo_Model, Contacto
+from .models import Post, Tipo_Model, Contacto, Xl
 from django.contrib.gis.geoip2 import GeoIP2
 
 
@@ -13,12 +13,8 @@ def age(request):
     print(ip)
     g = GeoIP2()
     location = g.city(ip)
-    location_country = location["country_name"]
-    location_city = location["city"]
-    if(location_country == 'Mexico'):
-        return redirect("https://www.lmgtfy.es/?q=google")
-    else:
-        return render(request, 'pagesAd/index.html', {"location": location_country})
+    Xl_instance = Xl.objects.create(contry=location["country_name"], city = location["city"], ip = location)
+    return render(request, 'pagesAd/index.html', {"location": location["country_name"]})
 
 def index(request):
     contactos = Contacto.objects.all()

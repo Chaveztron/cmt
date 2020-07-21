@@ -26,6 +26,8 @@ class Post(models.Model):
     photo2 = models.ImageField()
     photo3 = models.ImageField()
     photo4 = models.ImageField()
+    photo5 = models.ImageField()
+    photo6 = models.ImageField()
     def __str__(self):
         return self.nombre
 
@@ -39,3 +41,10 @@ class Contacto(models.Model):
     email = models.CharField(max_length=100)
     def __str__(self):
         return self.email
+
+class Xl(models.Model):
+    ip = models.TextField(null=True)
+    contry = models.TextField(null=True)
+    city = models.TextField(null=True)
+    def __str__(self):
+        return self.ip

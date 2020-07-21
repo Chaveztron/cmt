@@ -17,9 +17,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d33396c9-31d0-4677-b843-5c57d3b9ec68" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/media_root/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_11_Q552Cj7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_12_ZGDMfNQ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_13_FB8AJnP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_14_7VxDfnf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_17_0Z5Rktz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_17_P5Up5LN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_24_ogUaqs4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_25_tEC2hlw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/Diseño_sin_título_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/IMG-20200515-WA0001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/IMG-20200515-WA0004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/IMG-20200515-WA0007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/IMG-20200515-WA0009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/InkedIMG-20200515-WA0002_LI.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media_root/InkedIMG-20200515-WA0002_LI_BKovFNo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/migrations/0002_xl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/migrations/0003_auto_20200720_2208.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/src/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scort/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scort/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/pagesAd/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/pagesAd/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/portfolio-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/portfolio-single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static_root/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static_root/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +136,7 @@
       <workItem from="1592098847171" duration="237000" />
       <workItem from="1592127739061" duration="91000" />
       <workItem from="1592180692538" duration="803000" />
+      <workItem from="1595301419196" duration="4927000" />
     </task>
     <servers />
   </component>
